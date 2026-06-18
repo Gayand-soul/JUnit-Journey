@@ -15,7 +15,9 @@ src/
 
 ├── main/java/com/example/
 
-│   └── Calculator.java
+│    └── Calculator.java  
+         └── LifecycleTestCases.java
+
 
 └── test/java/com/example/
 
