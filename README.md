@@ -16,14 +16,18 @@ src/
 ├── main/java/com/example/
 
 ├── Calculator.java
+
 ├── LifecycleTestCases.java
 
 └── test/java/com/example/
 
-  ├── CalculatorTest.java
-  ├── CalculatorLifecycleTest.java
-  ├── CalculatorAssertionsTest.java
-  ├── CalculatorWeek1Test.java
+├── CalculatorTest.java
+  
+├── CalculatorLifecycleTest.java
+  
+├── CalculatorAssertionsTest.java
+  
+├── CalculatorWeek1Test.java
 
 ## What I've Covered So Far
 
