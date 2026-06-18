@@ -13,7 +13,7 @@ My structured, self-directed journey learning JUnit 5 from the ground up — bui
 ## Project Structure
 src/
 
-├── main/java/com/example/
+└── main/java/com/example/
 
 ├── Calculator.java
 
