@@ -1,5 +1,6 @@
 # JUnit Journey
 
+[![Java CI with Maven](https://github.com/Gayand-soul/JUnit-Journey/actions/workflows/maven.yml/badge.svg)](https://github.com/Gayand-soul/JUnit-Journey/actions/workflows/maven.yml)
 My structured, self-directed journey learning JUnit 5 from the ground up — built around a 5-week study plan covering everything from basic assertions to advanced test types, mocking, and CI integration.
 
 ## Progress
