@@ -14,10 +14,12 @@ My structured, self-directed journey learning JUnit 5 from the ground up — bui
 src/
 
 ├── main/java/com/example/
+
 ├── Calculator.java
 ├── LifecycleTestCases.java
 
 └── test/java/com/example/
+
   ├── CalculatorTest.java
   ├── CalculatorLifecycleTest.java
   ├── CalculatorAssertionsTest.java
