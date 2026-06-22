@@ -54,7 +54,7 @@ public class CalculatorWeek2Test {
         @Test
         @DisplayName("Add big negative number and small positiv number get negative sum")
         void add_negNumber_withPosNum_getNegSum(){
-            assertEquals(-3, calculator.add(-7,5));
+            assertEquals(-3, calculator.add(-8,5));
         }
         @Test
         @DisplayName("Add big positive number to a small negative number get positive sum")
@@ -71,13 +71,13 @@ public class CalculatorWeek2Test {
         @Order(1)
         @DisplayName("Division: Happy Path")
         void divideBigNum_withSmallNum_getResult() {
-            assertEquals(10, calculator.divide(50, 10));
+            assertEquals(5, calculator.divide(50, 10));
         }
         @Test
         @Order(3)
         @DisplayName("Division: Positive number with negative number get neg result.")
         void dividePosNum_withNegNum_getNegResult(){
-            assertEquals(-25, calculator.divide(-25,5));
+            assertEquals(-5, calculator.divide(-25,5));
         }
         @Test
         @Order(2)
@@ -89,8 +89,8 @@ public class CalculatorWeek2Test {
         @Order(4)
         @DisplayName("Division with zero")
         void divideNum_withZero_shouldThrowWithMessage(){
-            ArithmeticException exception = assertThrows(ArithmeticException.class, ()->calculator.divide(20,0));
-            assertEquals("/ by zero", exception.getMessage());
+            ArithmeticException exception = assertThrows(ArithmeticException.class, ()->calculator.divide(10,0));
+            assertEquals("Divide by zero", exception.getMessage());
         }
         @Test
         @Disabled("Method should reconsider moving to Addition tests")
