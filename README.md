@@ -29,6 +29,7 @@ src/
 ├── CalculatorAssertionsTest.java
 
 └── CalculatorWeek1Test.java
+└── CalculatorWeek2Test.java
 
 ## What I've Covered So Far
 
