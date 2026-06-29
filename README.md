@@ -7,7 +7,7 @@ My structured, self-directed journey learning JUnit 5 from the ground up — bui
 
 - [x] Week 1 — JUnit Foundations [![Java CI with Maven](https://github.com/Gayand-soul/JUnit-Journey/actions/workflows/maven.yml/badge.svg)](https://github.com/Gayand-soul/JUnit-Journey/actions/workflows/maven.yml)
 - [ ] Week 2 — Assertions & Test Organisation - [![Java CI with Maven](https://github.com/Gayand-soul/JUnit-Journey/actions/workflows/maven.yml/badge.svg)](https://github.com/Gayand-soul/JUnit-Journey/actions/workflows/maven.yml)
-- [ ] Week 3 — Parameterisation & Mocking
+- [ ] Week 3 — Parameterisation & Mocking [![Java CI with Maven](https://github.com/Gayand-soul/JUnit-Journey/actions/workflows/maven.yml/badge.svg)](https://github.com/Gayand-soul/JUnit-Journey/actions/workflows/maven.yml)
 - [ ] Week 4 — Advanced Features & Spring Boot
 - [ ] Week 5 — Code Quality & Professional Practices
 
