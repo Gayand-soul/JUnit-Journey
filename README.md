@@ -41,11 +41,26 @@ src/
 
 ## What I've Covered So Far
 
+### Week 1 — JUnit Foundations
 - Unit testing fundamentals & JUnit 5 vs JUnit 4
 - Maven project setup
 - Lifecycle annotations (`@BeforeEach`, `@AfterEach`, `@BeforeAll`, `@AfterAll`)
 - Core assertions (`assertEquals`, `assertNotEquals`, `assertTrue`, `assertFalse`, `assertThrows`)
 - Test naming conventions & `@DisplayName`
+
+### Week 2 — Assertions & Test Organisation
+- Advanced assertions (`assertAll`, `assertThrows`, `assertTimeout`, `assertInstanceOf`)
+- Grouping tests with `@Nested`
+- Disabling tests with `@Disabled`
+- Fluent assertions with AssertJ
+- Hamcrest matchers
+
+### Week 3 — Parameterisation & Mocking
+- Parameterised tests with `@ParameterizedTest`, `@ValueSource`, `@CsvSource`
+- Mocking dependencies with Mockito (`@Mock`, `@InjectMocks`)
+- Stubbing with `when/thenReturn` and `doThrow`
+- Verifying interactions with `verify()`, `never()`, and `anyString()`
+- Testing exceptions thrown by service logic
 
 ## Tech Stack
 
