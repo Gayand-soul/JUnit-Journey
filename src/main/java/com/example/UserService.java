@@ -17,11 +17,11 @@ public class UserService {
 
     /*
      * Registers a new user.
-     * Throws IllegalArgumentException if username is null, blank or < 2 chars.
+     * Throws IllegalArgumentException if username is null, blank or < 3 chars.
      * Throws IllegalArgumentException if the email is already taken.
      */
     public void register(String username, String email){
-        if(username == null || username.isBlank() || username.length() < 2){
+        if(username == null || username.isBlank() || username.length() < 3){
             throw new IllegalArgumentException("Invalid username: " + username);
         }
         if(repo.existsByEmail(email)){
