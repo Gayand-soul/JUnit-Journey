@@ -73,9 +73,10 @@ public class UserServiceTest {
                 ()-> userService.register("Amber", "manga.mango@example.com"));
     }
     @ParameterizedTest
-    @ValueSource(strings = { "", "M", "ab", "\t", "\n"})
+    @ValueSource(strings = { "", "null", "M", "ab", "\t", "\n"})
     void invalidUsername_shouldBeRejected(String input){
-        assertThrows(IllegalArgumentException.class, ()-> userService.register(input, input));
+        assertThrows(IllegalArgumentException.class,
+                () -> userService.register(input, "test@email.com"));
     }
 
     @ParameterizedTest (name = "alice should register")
