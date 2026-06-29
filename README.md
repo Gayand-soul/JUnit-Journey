@@ -17,7 +17,9 @@ src/
 ├── main/java/com/example/
 
 │    └── Calculator.java  
-         └── LifecycleTestCases.java
+     └── LifecycleTestCases.java
+     └── UserRepository.java
+     └── UserService.java
 
 
 └── test/java/com/example/
@@ -31,6 +33,8 @@ src/
 └── CalculatorWeek1Test.java
 
 └── CalculatorWeek2Test.java
+
+└── UserServiceTest.java
 
 ## What I've Covered So Far
 
